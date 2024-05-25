@@ -1,2 +1,604 @@
-hello
-bye
+
+student@plab24 MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+student@plab24 MINGW64 ~
+$ cd ..
+
+student@plab24 MINGW64 /c/Users
+$ cd student/desktop/Manu
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git clone<https://github.com/MG17manu/test.git>
+bash: syntax error near unexpected token `newline'
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git clone "https://github.com/MG17manu/test.git"
+Cloning into 'test'...
+remote: Enumerating objects: 81, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 81 (delta 22), reused 17 (delta 17), pack-reused 54
+Receiving objects: 100% (81/81), 42.28 KiB | 8.46 MiB/s, done.
+Resolving deltas: 100% (31/31), done.
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git branch f1
+fatal: not a git repository (or any of the parent directories): .git
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git branch f2
+fatal: not a git repository (or any of the parent directories): .git
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git branch master
+fatal: not a git repository (or any of the parent directories): .git
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git clone https://github.com/MG17manu/Data-Structure-Algorithm-Programs.git
+Cloning into 'Data-Structure-Algorithm-Programs'...
+remote: Enumerating objects: 2895, done.
+remote: Counting objects: 100% (908/908), done.
+remote: Compressing objects: 100% (221/221), done.
+remote: Total 2895 (delta 732), reused 852 (delta 682), pack-reused 1987
+Receiving objects: 100% (2895/2895), 4.64 MiB | 23.29 MiB/s, done.
+Resolving deltas: 100% (1547/1547), done.
+error: invalid path 'src/Algorithms/Dynamic Programming/12 Coin change problem : maximum no of ways.cpp'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ git branch f1
+fatal: not a git repository (or any of the parent directories): .git
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ cd Data-Structure_Algorithm_programs
+bash: cd: Data-Structure_Algorithm_programs: No such file or directory
+
+student@plab24 MINGW64 ~/desktop/Manu
+$ cd Data-Structure-Algorithm-programs
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git clone https://github.com/MG17manu/Data-Structure-Algorithm-Programs.git
+Cloning into 'Data-Structure-Algorithm-Programs'...
+remote: Enumerating objects: 2895, done.
+remote: Counting objects: 100% (908/908), done.
+remote: Compressing objects: 100% (221/221), done.
+remote: Total 2895 (delta 732), reused 852 (delta 682), pack-reused 1987
+Receiving objects: 100% (2895/2895), 4.64 MiB | 24.75 MiB/s, done.
+Resolving deltas: 100% (1547/1547), done.
+error: invalid path 'src/Algorithms/Dynamic Programming/12 Coin change problem : maximum no of ways.cpp'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git branch f1
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git branch f1
+fatal: a branch named 'f1' already exists
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ nano first.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git add first.txt
+warning: in the working copy of 'first.txt', LF will be replaced by CRLF the next time Git touches it
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git commit -m "msg"
+[master 76536f9] msg
+ 401 files changed, 1 insertion(+), 27141 deletions(-)
+ delete mode 100644 Array/01 static and dynamic array .c
+ delete mode 100644 Array/02 increasing size of array using heap.cpp
+ delete mode 100644 Array/03 Creating 2D array & Accessing.c
+ delete mode 100644 Array/04 Array ADT.c
+ delete mode 100644 Array/05 inserting an element.c
+ delete mode 100644 Array/06 Deleting element from array.c
+ delete mode 100644 Array/07 Linear search.c
+ delete mode 100644 Array/08 Improving Linear search.c
+ delete mode 100644 Array/09 Binary Search using loop.c
+ delete mode 100644 Array/10 Binary Search Using Recursion.c
+ delete mode 100644 Array/11 Get Set max min sum avg.c
+ delete mode 100644 Array/12 Rotate and Shift.c
+ delete mode 100644 Array/13 IsSorted .c
+ delete mode 100644 Array/14 Mergeing 2 Array.cpp
+ delete mode 100644 Array/15 InsertSort .c
+ delete mode 100644 Array/16 Set Operation (Union).cpp
+ delete mode 100644 Array/17 Insertion and Deletion.cpp
+ delete mode 100644 Array/18 Menu Based problem.cpp
+ delete mode 100644 Array/19 Single Missing Element in Sorted Array.cpp
+ delete mode 100644 Array/20 Single Missing Value in a sorted array M2.cpp
+ delete mode 100644 Array/21 Multiple Missing Elements in Sorted Array.cpp
+ delete mode 100644 Array/22 Missing elements in Unsorted Array (HASH TABLE).cpp
+ delete mode 100644 Array/23 Finding Duplicate in Soorted Array.cpp
+ delete mode 100644 Array/24 Counting Duplicate Elements In Sorted.cpp
+ delete mode 100644 Array/25 Counting Duplicate elements using hash table (SA).cpp
+ delete mode 100644 Array/25 b. Find Duplicate in unsorted array using hash table.cpp
+ delete mode 100644 Array/26 Finding Duplicate in Unsoorted Array.cpp
+ delete mode 100644 Array/27 Find a pair with sum k.cpp
+ delete mode 100644 Array/28 Find a pair with sum k in unsorted.cpp
+ delete mode 100644 Array/29 Find a pair with sum k using Hashing.cpp
+ delete mode 100644 Array/30 Finding max & min in single scan.cpp
+ delete mode 100644 Array/31 Menu for Array.c
+ delete mode 100644 Array/32 Intersection of two Array.cpp
+ delete mode 100644 Array/33 Find a peak element in an array.java
+ delete mode 100644 Array/Geeksforgeeks problem/01 Subarray with given sum.cpp
+ delete mode 100644 Array/Geeksforgeeks problem/02 Count the triplets.cpp
+ delete mode 100644 Array/Geeksforgeeks problem/03 Sum of array elements.cpp
+ delete mode 100644 Array/Geeksforgeeks problem/04 Find Missing And Repeating.cpp
+ delete mode 100644 Array/Geeksforgeeks problem/05 Merge Without Extra Space.cpp
+ delete mode 100644 Array/Geeksforgeeks problem/string reverse.cpp
+ delete mode 100644 Array/Problems/01 Print number in words.cpp
+ delete mode 100644 Array/Problems/02 Search in a matrix.cpp
+ delete mode 100644 Array/Problems/03 Product array puzzle.cpp
+ delete mode 100644 Array/Problems/04 Maximum Index.cpp
+ delete mode 100644 Array/Problems/05 Spirally traversing a matrix.cpp
+ delete mode 100644 Array/Problems/06 Average of Array.cpp
+ delete mode 100644 Array/Problems/07 Sum of Matrix.cpp
+ delete mode 100644 Array/Problems/08 Frequency of number.cpp
+ delete mode 100644 Array/Problems/09 Fencing Ground.cpp
+ delete mode 100644 Array/Problems/10 Find Largest Element in an Array.cpp
+ delete mode 100644 Array/Problems/11 Swapping Adjacent Element.cpp
+ delete mode 100644 Array/Problems/12 Merge array.cpp
+ delete mode 100644 Array/Problems/13 Merge Array & sort.cpp
+ delete mode 100644 Array/Problems/14 Find median in a stream.cpp
+ delete mode 100644 Array/Problems/15 Minimum Step count.cpp
+ delete mode 100644 Array/Problems/16 Prime Number between Limits.c
+ delete mode 100644 Array/Problems/17 swapping adjacent element.cpp
+ delete mode 100644 Array/Problems/18 reverse a string.cpp
+ delete mode 100644 Array/Problems/19 find out the avg.cpp
+ delete mode 100644 Array/Problems/20 2D Array.cpp
+ delete mode 100644 Array/Problems/21 Dynamically created memory.cpp
+ delete mode 100644 Array/Problems/22 Display append insert delete.cpp
+ delete mode 100644 Array/Problems/23 LS.cpp
+ delete mode 100644 Array/Problems/24 practice.cpp
+ delete mode 100644 Array/Problems/25 practice2.cpp
+ delete mode 100644 Array/Problems/26 practice3.cpp
+ delete mode 100644 Array/Problems/27 Insert in sorted array.cpp
+ delete mode 100644 Array/Problems/28 Arrange Array.cpp
+ delete mode 100644 Array/Problems/29 Pracrice4.cpp
+ delete mode 100644 Array/Problems/30 Merging two sorted Array.cpp
+ delete mode 100644 Array/Problems/31 Array Practice.cpp
+ delete mode 100644 Array/Problems/32 Array Project.cpp
+ delete mode 100644 Array/Problems/33 Multiple count.cpp
+ delete mode 100644 Array/Problems/34 Add two numbers.cpp
+ delete mode 100644 Array/Problems/35 Factorial.cpp
+ delete mode 100644 Array/Problems/36 Practice 4.cpp
+ delete mode 100644 Array/Problems/37 practice.cpp
+ delete mode 100644 Array/Problems/38 Practice.cpp
+ delete mode 100644 Array/Problems/39 Practice whole array.cpp
+ delete mode 100644 Array/Problems/40 Search in a matrix.cpp
+ delete mode 100644 Array/Problems/41 maximum subarray.cpp
+ delete mode 100644 Array/Problems/42 check palindrome.c
+ delete mode 100644 Array/Problems/43 Area of triangle and check paindrome.cpp
+ delete mode 100644 Array/Problems/44 Check anagram.cpp
+ delete mode 100644 Array/Problems/45 maximum gap.cpp
+ delete mode 100644 Array/Readme.md
+ delete mode 100644 Array/Syllabus.pdf
+ delete mode 100644 Graph/Basic/01 BFS.c
+ delete mode 100644 Graph/Basic/02 DFS.c
+ delete mode 100644 Graph/Basic/03 PrimMinSpanningTreeFunction.cpp
+ delete mode 100644 Graph/Basic/04 KrushalsMinCostSpanningTreeFunction.cpp
+ delete mode 100644 Graph/Basic/05 DepthFirstSearchUsingRecursion.cpp
+ delete mode 100644 Graph/Basic/06 BreadthFirstSearchUsingSTLQueue.cpp
+ delete mode 100644 Graph/Basic/07 Breadth  First Search Using STLQueue.cpp
+ delete mode 100644 Hashing Techniques/Basics/01 HashTable Chaning.cpp
+ delete mode 100644 Heap/01 InsertinHeap.cpp
+ delete mode 100644 Heap/02 CreateHeapUsingSTLVector.cpp
+ delete mode 100644 Heap/03 Insert in Heap.cpp
+ delete mode 100644 Heap/04 Delete element from Heap.c
+ delete mode 100644 Heap/05 Heap sort.c
+ delete mode 100644 Heap/06 HeapifyFunctionFasterMethodtoCreateHeap.cpp
+ delete mode 100644 LinkedList/Basic Consept/01 Display LL.c
+ delete mode 100644 LinkedList/Basic Consept/02 Display LL Using Recursion.c
+ delete mode 100644 LinkedList/Basic Consept/03 Count and sum of LL.cpp
+ delete mode 100644 LinkedList/Basic Consept/04 Printing Max element.c
+ delete mode 100644 LinkedList/Basic Consept/05 Display,count,sum,max.cpp
+ delete mode 100644 LinkedList/Basic Consept/06 Searching Element .cpp
+ delete mode 100644 LinkedList/Basic Consept/07 Searching Elements using Recursion & Move to 1st .cpp
+ delete mode 100644 LinkedList/Basic Consept/08 Insertion in linkedlist.cpp
+ delete mode 100644 LinkedList/Basic Consept/09 Circular Linkedlist.cpp
+ delete mode 100644 LinkedList/Basic Consept/10 Insert in sorted ll.c
+ delete mode 100644 LinkedList/Basic Consept/11 project sll .cpp
+ delete mode 100644 LinkedList/Basic Consept/12 Delete from ll.c
+ delete mode 100644 LinkedList/Basic Consept/13 Remove duplicate.c
+ delete mode 100644 LinkedList/Basic Consept/14 Reversing Using Array.c
+ delete mode 100644 LinkedList/Basic Consept/15 Reversing Using Sliding Links.c
+ delete mode 100644 LinkedList/Basic Consept/16 Reversing using Recursion.c
+ delete mode 100644 LinkedList/Basic Consept/17 concatinate linkedlist.c
+ delete mode 100644 LinkedList/Basic Consept/18 Merge LL.c
+ delete mode 100644 LinkedList/Basic Consept/19 Liner Singly Linked List .cpp
+ delete mode 100644 LinkedList/Basic Consept/20 Display Circular LL.c
+ delete mode 100644 LinkedList/Basic Consept/21 Insert  in Circular LL.c
+ delete mode 100644 LinkedList/Basic Consept/22 Delete from cll from pos.c
+ delete mode 100644 LinkedList/Basic Consept/23 Delete an element in CLL from pos .cpp
+ delete mode 100644 LinkedList/Basic Consept/24 Create,Display,count DLL.c
+ delete mode 100644 LinkedList/Basic Consept/25 insert at any pos in dll.c
+ delete mode 100644 LinkedList/Basic Consept/26 Delete from DLL.c
+ delete mode 100644 LinkedList/Basic Consept/27 Reverse DLL.c
+ delete mode 100644 LinkedList/Basic Consept/28 Middle of Linkedlist.c
+ delete mode 100644 LinkedList/Basic Consept/29 Polynomial of Linkedlist.c
+ delete mode 100644 LinkedList/Basic Consept/display ll.cpp
+ delete mode 100644 LinkedList/Problems/01 Insertion at the beginning - SLL.c
+ delete mode 100644 LinkedList/Problems/02 Insertion at the end - SLL.c
+ delete mode 100644 LinkedList/Problems/03 Practice.cpp
+ delete mode 100644 LinkedList/Problems/04 Practice Linkedlist.cpp
+ delete mode 100644 Matrix/01 Diagonal matrix.c
+ delete mode 100644 Matrix/01 Diagonal matrix.cpp
+ delete mode 100644 Matrix/02 Lower Tringular matrix.c
+ delete mode 100644 Problems/Memory Allocation/01 create new node.cpp
+ delete mode 100644 Problems/Memory Allocation/02 Help bob.c
+ delete mode 100644 Problems/Memory Allocation/03 Dynamic memory allocation.c
+ delete mode 100644 Problems/Memory Allocation/04 Swapping of no using ptr.c
+ delete mode 100644 Problems/Memory Allocation/05 Finding Square Roots.c
+ delete mode 100644 Queue/01 Queue using array enqueue & dequeue .cpp
+ delete mode 100644 Queue/02 C++ Queue using Array.cpp
+ delete mode 100644 Queue/03 Circular Queue using Array .cpp
+ delete mode 100644 Queue/04 C++ Circular Queue.cpp
+ delete mode 100644 Queue/05 Queue using Linkedlist  (2).cpp
+ delete mode 100644 Queue/06 DEQueue using Array .cpp
+ delete mode 100644 Queue/07 Queue using two stack.cpp
+ delete mode 100644 README.md
+ delete mode 100644 Recursion/01 Tail recursion.cpp
+ delete mode 100644 Recursion/02 head recursion.cpp
+ delete mode 100644 Recursion/03 global variable recursion.c
+ delete mode 100644 Recursion/04 static variable in reciursion.c
+ delete mode 100644 Recursion/05 Tree recursion.c
+ delete mode 100644 Recursion/06 nested recursion.c
+ delete mode 100644 Recursion/07 Sum of n number using recursion.c
+ delete mode 100644 Recursion/08 Factorial of a numbet using recursion.c
+ delete mode 100644 Recursion/09 Sum Of given number using loop.c
+ delete mode 100644 Recursion/10 powe using recursion.cpp
+ delete mode 100644 Recursion/11 power function.c
+ delete mode 100644 Recursion/12 Taylor Series using Static variables.cpp
+ delete mode 100644 Recursion/13 Taylor Serie honers rule.c
+ delete mode 100644 Recursion/14 Taylor Serie Iterative.cpp
+ delete mode 100644 Recursion/15 Indirect Recursion.c
+ delete mode 100644 Recursion/16 Fibbonaci series using loop and recursion .c
+ delete mode 100644 Recursion/17 fibbonacci using memoization.c
+ delete mode 100644 Recursion/18 nCr formula.c
+ delete mode 100644 Recursion/19 Tower of Hanoi .c
+ delete mode 100644 Recursion/ex.c
+ delete mode 100644 Recursion/ex.cpp
+ delete mode 100644 Sorting Technique/01 Bubble Sort.c
+ delete mode 100644 Sorting Technique/02 BubbleSort.cpp
+ delete mode 100644 Sorting Technique/03 Insertionsort.c
+ delete mode 100644 Sorting Technique/04 InsertionSort.cpp
+ delete mode 100644 Sorting Technique/05 Selection Sort.c
+ delete mode 100644 Sorting Technique/06 SelectionSort.cpp
+ delete mode 100644 Sorting Technique/07 Mergesort.c
+ delete mode 100644 Sorting Technique/08 MergingFunction.cpp
+ delete mode 100644 Sorting Technique/09 Iterative Mergesort.c
+ delete mode 100644 Sorting Technique/10 IterativeMergeSort.cpp
+ delete mode 100644 Sorting Technique/11 Recursive Mergesort.c
+ delete mode 100644 Sorting Technique/12 RecursiveMergeSort.cpp
+ delete mode 100644 Sorting Technique/13 Count Sort.cpp
+ delete mode 100644 Sorting Technique/14 CountSortFunction.cpp
+ delete mode 100644 Sorting Technique/15 RadixSort Using LL.cpp
+ delete mode 100644 Sorting Technique/16 BinSort Based on LL.cpp
+ delete mode 100644 Sorting Technique/17 Shellsort.cpp
+ delete mode 100644 Sorting Technique/18 ShellSort.cpp
+ delete mode 100644 Stack/01 Operation on stack c++ .cpp
+ delete mode 100644 Stack/01 Operations on stack .cpp
+ delete mode 100644 Stack/02 Stack using linkedlist c++.cpp
+ delete mode 100644 Stack/02 Stack using linkedlist.cpp
+ delete mode 100644 Stack/03 Parenthesis Balance in C++.cpp
+ delete mode 100644 Stack/03 Parenthesis checking.cpp
+ delete mode 100644 Stack/04 infix to postfix.cpp
+ delete mode 100644 Stack/05 infix to postfix considering Parenthesis and Associativity using Stack.cpp
+ delete mode 100644 Stack/06 Evaluation of postfix expression.cpp
+ delete mode 100644 Stack/07 Next Greater Element.cpp
+ delete mode 100644 Stack/08 Nearest greater to left(NGL).cpp
+ delete mode 100644 Stack/09 Nearest smaller to left.cpp
+ delete mode 100644 Stack/10 Nearest smaller to right.cpp
+ delete mode 100644 Stack/11 Stock span problem.cpp
+ delete mode 100644 Stack/12 Maximum Rectangular Area in a Histogram.cpp
+ delete mode 100644 Stack/13 Max area rectangle in Binary matrix.cpp
+ delete mode 100644 String/01 Length of string.cpp
+ delete mode 100644 String/02 Upper to Lower.cpp
+ delete mode 100644 String/03 lower to upper.cpp
+ delete mode 100644 String/04 Upper to Lower & Lower to upper.cpp
+ delete mode 100644 String/05 Vowel & Counstant count.cpp
+ delete mode 100644 String/06 Word Count.cpp
+ delete mode 100644 String/07 Reverse the string.cpp
+ delete mode 100644 String/08 String validation.cpp
+ delete mode 100644 String/09 Compare Two string.cpp
+ delete mode 100644 String/10 Palindrome.cpp
+ delete mode 100644 String/problem on string/01 Length of string.cpp
+ delete mode 100644 String/problem on string/02 Case change.cpp
+ delete mode 100644 String/problem on string/03 String Practice.cpp
+ delete mode 100644 String/problem on string/04 Reverse the vowels.cpp
+ delete mode 100644 Tree/AVL/01 Rotations in AVL(LL,LR).c
+ delete mode 100644 Tree/AVL/02 Rotation in AVL.cpp
+ delete mode 100644 Tree/AVL/03 Delete From AVL.cpp
+ delete mode 100644 Tree/BST/01 BST Insert Inorder & Search.c
+ delete mode 100644 Tree/BST/02 BST Insert,Inorder&Search.cpp
+ delete mode 100644 Tree/BST/03 Insert in BST.c
+ delete mode 100644 Tree/BST/03 Recursive Insert in BST.c
+ delete mode 100644 Tree/BST/04 Delete from BST (Height,InPre,InSucc).c
+ delete mode 100644 Tree/BST/05 BST Project.cpp
+ delete mode 100644 Tree/Basic/01 Traversal of tree.cpp
+ delete mode 100644 Tree/Basic/02 Iterative and recursive traversal of tree .cpp
+ delete mode 100644 Tree/Basic/02 Traversal of Tree.c
+ delete mode 100644 Tree/Basic/03 Level Order Traversal.c
+ delete mode 100644 Tree/Basic/04 Count and Height of tree.c
+ delete mode 100644 Tree/Basic/05 Recursive Count and height of tree.c
+ delete mode 100644 Tree/Basic/06 Sum of tree.c
+ delete mode 100644 Tree/Basic/07 D1,D2,D0(leaf node) count.cpp
+ delete mode 100644 Tree/Basic/08 leaf,D1,D2 node count.c
+ delete mode 100644 Tree/Problems/01 Largest in tree.c
+ delete mode 100644 Tree/Search Trees/01
+ delete mode 100644 _config.yml
+ create mode 100644 first.txt
+ delete mode 100644 src/Algorithms/Divide & Conquer/01 Binary Search.cpp
+ delete mode 100644 src/Algorithms/Divide & Conquer/02 Quicksort.cpp
+ delete mode 100644 src/Algorithms/Divide & Conquer/03 Merge sort.cpp
+ delete mode 100644 src/Algorithms/Divide & Conquer/readme.md
+ delete mode 100644 src/Algorithms/Dynamic Programming/01 Recursive Knapsack.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/02 Knapsack Memoization(DP).cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/03 Knapsack Bottom up.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/04 Subset sum(Knapsack variation).cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/05 Equal sum partition.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/06 Count of Subsets with given Sum.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/07 Minimum subset sum difference.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/08 Count the number of subset with given difference.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/09 Target sum.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/10 Unbounded Knapsack.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/11 Rod cutting problem.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/12 Coin change problem : maximum no of ways.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/13 Coin change problem: Minimum number of coin.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/14 Longest Common Subsequence recursive.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/15 Longest Common Subsequence Top down(Memoization).cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/16 Longest Common Subsequence Bottom Up(DP).cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/17 LCS Substring.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/18 Print LCS.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/19 Shortest Common Supersequence.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/20 Minimum insertion deletion to convert a to b.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/21 Longest Palindromic Subsequence.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/22 Minimum number of deletions to make a string palindrome.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/23 Print Shortest Common Supersequence.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/24 Longest repeating subsequence.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/25 Sequence pattern matching.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/26 Minimum Number of insertion to make a string palindrome.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/27 Matrix chain multiplication.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/28 MCM Memoization.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/29 Palindrome Partitioning Recursive.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/30 Palindrome Partitioning Memoization.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/31 Palindrome Partitioning Memoized optimization.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/32 Evaluate Expression to true Recursive.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/33 Evaluate expression to true memoization using map.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/34 Evaluate expression to true memoization using 3d array.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/35 Scramble string recursive.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/36 Scramble string top down.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/37 Egg dropping problem recursive.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/38 Egg dropping problem top down.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/39 Egg dropping problem memoization optimization.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/40 Diameter of binary tree.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/41 Max path sum from any node to any.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/42 Max_path_sum_from_leaf_to_leaf.cpp
+ delete mode 100644 src/Algorithms/Dynamic Programming/readme.md
+ delete mode 100644 src/Algorithms/l1.txt
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/01 Maximum SubArray.cpp
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/02 Reverse of array.cpp
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/03 Find the min and max of array.cpp
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/04 Sorting Without sorting algorithm.cpp
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/05 Move all negative numbers to beginning.cpp
+ delete mode 100644 src/Competitive Coding (DSA)/01 Array/06 Reverse Integer.cpp
+ delete mode 100644 src/Hackerrank Contest/01 Mirror Tree.cpp
+ delete mode 100644 src/Hackerrank Contest/02 Postorder Tree.c
+ delete mode 100644 src/Hackerrank Contest/03 Residue of Execution(using recursion).cpp
+ delete mode 100644 src/Hackerrank Contest/04 Negetive Marking.cpp
+ delete mode 100644 src/Hackerrank Contest/05 BS.cpp
+ delete mode 100644 src/Hackerrank Contest/06 Team Queue.cpp
+ delete mode 100644 src/Hackerrank Contest/07 ZZ Stacks- Implementation of Queue.cpp
+ delete mode 100644 src/Hackerrank Contest/08 N 501 - Trick or Treat!.cpp
+ delete mode 100644 src/Hackerrank Contest/09 In Search of a Number.cpp
+ delete mode 100644 src/Hackerrank Contest/10 Greatest Number with the Digits.py
+ delete mode 100644 src/Hackerrank Contest/11 Zig Zag traversal.cpp
+ delete mode 100644 src/Hackerrank Contest/12 Interesting Series.cpp
+ delete mode 100644 src/Img/DP.png
+ delete mode 100644 src/Img/DSA.png
+ delete mode 100644 src/TC/Graph Algorithm.png
+ delete mode 100644 src/TC/Graph and heap.png
+ delete mode 100644 src/TC/Order of TC.png
+ delete mode 100644 src/TC/Sorting Algo.png
+ delete mode 100644 src/TC/TC of DS.png
+ delete mode 100644 src/TC/Time Complexity problems/readme.md
+ delete mode 100644 src/cpp/** inheritence.cpp
+ delete mode 100644 src/cpp/00 basic.cpp
+ delete mode 100644 src/cpp/00 basic1.cpp
+ delete mode 100644 src/cpp/00 basic2.cpp
+ delete mode 100644 src/cpp/00 basic3.cpp
+ delete mode 100644 src/cpp/00 basic4.cpp
+ delete mode 100644 src/cpp/01 Function/01 Function Overloading.cpp
+ delete mode 100644 src/cpp/01 Function/02 Function Template.cpp
+ delete mode 100644 src/cpp/01 Function/03 Default Argument.cpp
+ delete mode 100644 src/cpp/01 Function/Simple exaample.cpp
+ delete mode 100644 src/cpp/01 Referance vaiable & Typecasting.cpp
+ delete mode 100644 src/cpp/02 Constants, Manipulators & Operator Precedence.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/01 Basic class & Obj.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/02 Area & perimeter of rect.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/03 pointer to an object.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/04 Data Abstraction(Accessor & Mutator ).cpp
+ delete mode 100644 src/cpp/02 OOPS concept/05 Constructor.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/06 All types of the fxn.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/07 this function.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/08 Struct & Class.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/09 Students details.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/10 class and obj.cpp
+ delete mode 100644 src/cpp/02 OOPS concept/11 constructor.cpp
+ delete mode 100644 src/cpp/03 If Else and Switch-Case Statement.cpp
+ delete mode 100644 src/cpp/04 Loops For while do while .cpp
+ delete mode 100644 src/cpp/05 Break and Continue.cpp
+ delete mode 100644 src/cpp/06 Pointers.cpp
+ delete mode 100644 src/cpp/07 Array & Pointers Arithmetic.cpp
+ delete mode 100644 src/cpp/08 Struct Union Enum.cpp
+ delete mode 100644 src/cpp/09 Function & Function Prototypes.cpp
+ delete mode 100644 src/cpp/10 Call by value & Call by Ref.cpp
+ delete mode 100644 src/cpp/11 inline function default argument & const arguments.cpp
+ delete mode 100644 src/cpp/12 Recursion and Recursive fxn.cpp
+ delete mode 100644 src/cpp/13 Function Overloding.cpp
+ delete mode 100644 src/cpp/14 OOP Class and object.cpp
+ delete mode 100644 src/cpp/15 OOPs Recap & Nesting of Member Functions.cpp
+ delete mode 100644 src/cpp/16 Objects Memory Allocation & using Arrays in Classes.cpp
+ delete mode 100644 src/cpp/17 Static Data Members & Methods.cpp
+ delete mode 100644 src/cpp/18 Array of Objects & Passing Objects as Function Arguments.cpp
+ delete mode 100644 src/cpp/19 Friend Functions.cpp
+ delete mode 100644 src/cpp/20 Friend Classes & Member Friend Functions.cpp
+ delete mode 100644 src/cpp/21 More on C++ Friend Functions.cpp
+ delete mode 100644 src/cpp/22 Constructors.cpp
+ delete mode 100644 src/cpp/23 Paramererized Constructor.cpp
+ delete mode 100644 src/cpp/24 Parameterized Constructor.cpp
+ delete mode 100644 src/cpp/25 Constructor Overloading.cpp
+ delete mode 100644 src/cpp/26 Constructor with dafults Arguments.cpp
+ delete mode 100644 src/cpp/27 Dynamic Initization of  obj using constructor.cpp
+ delete mode 100644 src/cpp/28 Copy Constructor.cpp
+ delete mode 100644 src/cpp/29 Destructor.cpp
+ delete mode 100644 src/cpp/30 Inheritance Syntax.cpp
+ delete mode 100644 src/cpp/31 Single Inheritance.cpp
+ delete mode 100644 src/cpp/32 Protected Access Modifier.cpp
+ delete mode 100644 src/cpp/33 Multilevel Inheritance.cpp
+ delete mode 100644 src/cpp/34 Multiple Inheritance.cpp
+ delete mode 100644 src/cpp/35 Exercise on Inheritance.cpp
+ delete mode 100644 src/cpp/36 Ambiguity Resolution in Inheritance.cpp
+ delete mode 100644 src/cpp/37 Virtual Base Class.cpp
+ delete mode 100644 src/cpp/38 Constructors in Derived Class.cpp
+ delete mode 100644 src/cpp/39 Initialization list in Constructors.cpp
+ delete mode 100644 src/cpp/40 pointers.cpp
+ delete mode 100644 src/cpp/41 Pointers to Objects and Arrow Operator.cpp
+ delete mode 100644 src/cpp/42 Array of Objects Using Pointers.cpp
+ delete mode 100644 src/cpp/43 this Pointer.cpp
+ delete mode 100644 src/cpp/44 Polymorphism.cpp
+ delete mode 100644 src/cpp/45 Virtual Functions.cpp
+ delete mode 100644 src/cpp/46 Virtual Functions Example.cpp
+ delete mode 100644 src/cpp/47 Abstract Base Class & Pure Virtual Functions.cpp
+ delete mode 100644 src/cpp/48 File I or O.cpp
+ delete mode 100644 src/cpp/Cpp_programs.md
+ delete mode 100644 src/cpp/Cpp_things.md
+ delete mode 100644 src/cpp/STL/01 Generic introduction.cpp
+ delete mode 100644 src/cpp/STL/02 Generic class using template.cpp
+ delete mode 100644 src/cpp/STL/03 Bubble sort using template.cpp
+ delete mode 100644 src/cpp/STL/04 Our Monk loves candy!.cpp
+ delete mode 100644 src/cpp/STL/05 print string in lexicographical order.cpp
+ delete mode 100644 src/cpp/STL/06 Map.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/01 Begin fun.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/02 end fun.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/03 Maps creation.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/04 print map & its size.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/05 map.find, map.erase, m.clear.cpp
+ delete mode 100644 src/cpp/STL/Containers/Vector/06 unordered_map.cpp
+ delete mode 100644 src/cpp/STL/Readme.md
+ delete mode 100644 src/cpp/basic.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git checkout f1
+error: invalid path 'src/Algorithms/Dynamic Programming/12 Coin change problem : maximum no of ways.cpp'
+error: invalid path 'src/Algorithms/Dynamic Programming/13 Coin change problem: Minimum number of coin.cpp'
+error: invalid path 'src/cpp/** inheritence.cpp'
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git checkout f2
+error: pathspec 'f2' did not match any file(s) known to git
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git branch f1
+fatal: a branch named 'f1' already exists
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git branch f2
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git checkout f2
+Switched to branch 'f2'
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ nano second.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git add second.txt
+warning: in the working copy of 'second.txt', LF will be replaced by CRLF the next time Git touches it
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git commit -m "msg"
+[f2 033dd3b] msg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 second.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git merge f2
+Updating 76536f9..033dd3b
+Fast-forward
+ second.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 second.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ nano first.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git add first.txt
+warning: in the working copy of 'first.txt', LF will be replaced by CRLF the next time Git touches it
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git commit -m "msg"
+[master 7204d8a] msg
+ 1 file changed, 1 insertion(+)
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git checkout f2
+Switched to branch 'f2'
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ nano first.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git add first.txt
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git commit -m "msg"
+[f2 d64f993] msg
+ 1 file changed, 1 insertion(+)
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (f2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master)
+$ git merge f2
+Auto-merging first.txt
+CONFLICT (content): Merge conflict in first.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master|MERGING)
+$ git diff
+diff --cc first.txt
+index 5c768c2,0025623..0000000
+--- a/first.txt
++++ b/first.txt
+@@@ -1,2 -1,2 +1,6 @@@
+  hellooooo
+++<<<<<<< HEAD
+ +hiiiiiiii
+++=======
++ manu
+++>>>>>>> f2
+
+student@plab24 MINGW64 ~/desktop/Manu/Data-Structure-Algorithm-programs (master|MERGING)
+$
+
